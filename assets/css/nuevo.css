@@ -1,0 +1,42 @@
+@media (min-width:768px) {
+  header.masthead .intro-text .intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+  }
+}
+
+#mainNav {
+  background-color: #0e918c;
+}
+
+#mainNav .navbar-brand {
+  color: #01c5c4;
+  font-family: Kaushan Script,Helvetica Neue,Helvetica,Arial,cursive;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #01c5c4;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #212529;
+  background-color: #01c5c4;
+  border-color: #01c5c4;
+}
+
+header.masthead {
+  text-align: center;
+  color: #000000;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50%;
+  background-size: contain;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  color: #14274e;
+}
+
